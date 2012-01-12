@@ -1,5 +1,6 @@
 set encoding=utf-8
 set showcmd                     " display incomplete commands
+set history=1000
 
 "" Whitespace
 set nowrap                      " don't wrap lines
