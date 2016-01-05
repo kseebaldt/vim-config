@@ -1,22 +1,24 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
-Bundle 'kien/ctrlp.vim.git'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-vividchalk.git'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'Lokaltog/powerline'
-Bundle "pangloss/vim-javascript"
-Bundle "scrooloose/syntastic"
+Plugin 'kien/ctrlp.vim.git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-vividchalk.git'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'Lokaltog/powerline'
+Plugin "pangloss/vim-javascript"
+Plugin "scrooloose/syntastic"
+
+call vundle#end()
 
 syntax enable
 filetype plugin indent on     " required!
