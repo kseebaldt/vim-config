@@ -15,8 +15,9 @@ Plugin 'tpope/vim-vividchalk.git'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'Lokaltog/powerline'
-Plugin "pangloss/vim-javascript"
-Plugin "scrooloose/syntastic"
+Plugin 'pangloss/vim-javascript'
+Plugin 'scrooloose/syntastic'
+Plugin 'def-lkb/ocp-indent-vim'
 
 call vundle#end()
 
